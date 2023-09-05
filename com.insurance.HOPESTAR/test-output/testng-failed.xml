@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Smoke Test(failed)">
+    <classes>
+      <class name="Client_Module.AddNewClientTest">
+        <methods>
+          <include name="config_AM"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="AddNewClientFunctionTest"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- Client_Module.AddNewClientTest -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

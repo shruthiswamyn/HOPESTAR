@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="12" passed="5" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[AddNomineeUsingClientStatusLinkFunctionTest---->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[AddNomineeUsingClientStatusLinkFunctionTest---->Testscript execution passed]]>
+    </line>
+    <line>
+      <![CDATA[AddPaymentsUsingAgentIdTest---->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[AddPaymentsUsingAgentIdTest---->Testscript execution passed]]>
+    </line>
+    <line>
+      <![CDATA[EditClientUsingNomineesLinkTest---->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[EditClientUsingNomineesLinkTest---->Testscript execution passed]]>
+    </line>
+    <line>
+      <![CDATA[AddNewPaymentMethodTest---->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[AddNewPaymentMethodTest---->Testscript execution passed]]>
+    </line>
+    <line>
+      <![CDATA[findClientStatusUsingNomineesTest---->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[findClientStatusUsingNomineesTest---->Testscript execution passed]]>
+    </line>
+    <line>
+      <![CDATA[AddNewClientFunctionTest---->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[AddNewClientFunctionTest--> Test Script Failed  ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-16T12:13:23 IST" name="Suite" finished-at="2023-08-16T12:14:08 IST" duration-ms="44814">
+    <groups>
+      <group name="Integration">
+        <method signature="AddNewPaymentTest.AddNewPaymentMethodTest()[pri:0, instance:Payments_Module.AddNewPaymentTest@1aafa419]" name="AddNewPaymentMethodTest" class="Payments_Module.AddNewPaymentTest"/>
+      </group> <!-- Integration -->
+      <group name="Smoke">
+        <method signature="FindClientStatusUsingNomineesLinkTest.findClientStatusUsingNomineesTest()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" name="findClientStatusUsingNomineesTest" class="Client_Module.FindClientStatusUsingNomineesLinkTest"/>
+      </group> <!-- Smoke -->
+      <group name="System">
+        <method signature="AddNomineeUsingClientStatusLinkTest.AddNomineeUsingClientStatusLinkFunctionTest()[pri:0, instance:Client_Module.AddNomineeUsingClientStatusLinkTest@1189dd52]" name="AddNomineeUsingClientStatusLinkFunctionTest" class="Client_Module.AddNomineeUsingClientStatusLinkTest"/>
+        <method signature="AddPaymentUsingAgentIdTest.AddPaymentsUsingAgentIdTest()[pri:0, instance:Payments_Module.AddPaymentUsingAgentIdTest@436813f3]" name="AddPaymentsUsingAgentIdTest" class="Payments_Module.AddPaymentUsingAgentIdTest"/>
+        <method signature="EditClientUsingNomineesTest.EditClientUsingNomineesLinkTest()[pri:0, instance:Nominee_Module.EditClientUsingNomineesTest@74fe5c40]" name="EditClientUsingNomineesLinkTest" class="Nominee_Module.EditClientUsingNomineesTest"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2023-08-16T12:13:23 IST" name="System Test" finished-at="2023-08-16T12:13:49 IST" duration-ms="26447">
+      <class name="Payments_Module.AddPaymentUsingAgentIdTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Payments_Module.AddPaymentUsingAgentIdTest@436813f3]" started-at="2023-08-16T12:13:32 IST" name="config_BC" finished-at="2023-08-16T12:13:34 IST" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Payments_Module.AddPaymentUsingAgentIdTest@436813f3]" started-at="2023-08-16T12:13:34 IST" name="config_BM" finished-at="2023-08-16T12:13:34 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="AddPaymentsUsingAgentIdTest()[pri:0, instance:Payments_Module.AddPaymentUsingAgentIdTest@436813f3]" started-at="2023-08-16T12:13:34 IST" name="AddPaymentsUsingAgentIdTest" finished-at="2023-08-16T12:13:38 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddPaymentsUsingAgentIdTest---->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[AddPaymentsUsingAgentIdTest---->Testscript execution passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddPaymentsUsingAgentIdTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Payments_Module.AddPaymentUsingAgentIdTest@436813f3]" started-at="2023-08-16T12:13:38 IST" name="config_AM" finished-at="2023-08-16T12:13:38 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Payments_Module.AddPaymentUsingAgentIdTest@436813f3]" started-at="2023-08-16T12:13:38 IST" name="config_AC" finished-at="2023-08-16T12:13:38 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- Payments_Module.AddPaymentUsingAgentIdTest -->
+      <class name="Client_Module.AddNomineeUsingClientStatusLinkTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Client_Module.AddNomineeUsingClientStatusLinkTest@1189dd52]" started-at="2023-08-16T12:13:23 IST" name="config_BC" finished-at="2023-08-16T12:13:27 IST" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Client_Module.AddNomineeUsingClientStatusLinkTest@1189dd52]" started-at="2023-08-16T12:13:27 IST" name="config_BM" finished-at="2023-08-16T12:13:27 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="AddNomineeUsingClientStatusLinkFunctionTest()[pri:0, instance:Client_Module.AddNomineeUsingClientStatusLinkTest@1189dd52]" started-at="2023-08-16T12:13:27 IST" name="AddNomineeUsingClientStatusLinkFunctionTest" finished-at="2023-08-16T12:13:31 IST" duration-ms="3652" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddNomineeUsingClientStatusLinkFunctionTest---->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[AddNomineeUsingClientStatusLinkFunctionTest---->Testscript execution passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddNomineeUsingClientStatusLinkFunctionTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Client_Module.AddNomineeUsingClientStatusLinkTest@1189dd52]" started-at="2023-08-16T12:13:31 IST" name="config_AM" finished-at="2023-08-16T12:13:31 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Client_Module.AddNomineeUsingClientStatusLinkTest@1189dd52]" started-at="2023-08-16T12:13:31 IST" name="config_AC" finished-at="2023-08-16T12:13:32 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- Client_Module.AddNomineeUsingClientStatusLinkTest -->
+      <class name="Nominee_Module.EditClientUsingNomineesTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Nominee_Module.EditClientUsingNomineesTest@74fe5c40]" started-at="2023-08-16T12:13:38 IST" name="config_BC" finished-at="2023-08-16T12:13:40 IST" duration-ms="2589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Nominee_Module.EditClientUsingNomineesTest@74fe5c40]" started-at="2023-08-16T12:13:40 IST" name="config_BM" finished-at="2023-08-16T12:13:41 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="EditClientUsingNomineesLinkTest()[pri:0, instance:Nominee_Module.EditClientUsingNomineesTest@74fe5c40]" started-at="2023-08-16T12:13:41 IST" name="EditClientUsingNomineesLinkTest" finished-at="2023-08-16T12:13:49 IST" duration-ms="8275" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[EditClientUsingNomineesLinkTest---->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[EditClientUsingNomineesLinkTest---->Testscript execution passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditClientUsingNomineesLinkTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Nominee_Module.EditClientUsingNomineesTest@74fe5c40]" started-at="2023-08-16T12:13:49 IST" name="config_AM" finished-at="2023-08-16T12:13:49 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Nominee_Module.EditClientUsingNomineesTest@74fe5c40]" started-at="2023-08-16T12:13:49 IST" name="config_AC" finished-at="2023-08-16T12:13:49 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- Nominee_Module.EditClientUsingNomineesTest -->
+    </test> <!-- System Test -->
+    <test started-at="2023-08-16T12:13:50 IST" name="Integration Test" finished-at="2023-08-16T12:13:55 IST" duration-ms="4962">
+      <class name="Payments_Module.AddNewPaymentTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Payments_Module.AddNewPaymentTest@1aafa419]" started-at="2023-08-16T12:13:50 IST" name="config_BC" finished-at="2023-08-16T12:13:53 IST" duration-ms="2522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Payments_Module.AddNewPaymentTest@1aafa419]" started-at="2023-08-16T12:13:53 IST" name="config_BM" finished-at="2023-08-16T12:13:53 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="AddNewPaymentMethodTest()[pri:0, instance:Payments_Module.AddNewPaymentTest@1aafa419]" started-at="2023-08-16T12:13:53 IST" name="AddNewPaymentMethodTest" finished-at="2023-08-16T12:13:55 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddNewPaymentMethodTest---->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[AddNewPaymentMethodTest---->Testscript execution passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddNewPaymentMethodTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Payments_Module.AddNewPaymentTest@1aafa419]" started-at="2023-08-16T12:13:55 IST" name="config_AM" finished-at="2023-08-16T12:13:55 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Payments_Module.AddNewPaymentTest@1aafa419]" started-at="2023-08-16T12:13:55 IST" name="config_AC" finished-at="2023-08-16T12:13:55 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- Payments_Module.AddNewPaymentTest -->
+    </test> <!-- Integration Test -->
+    <test started-at="2023-08-16T12:13:55 IST" name="Smoke Test" finished-at="2023-08-16T12:14:08 IST" duration-ms="12475">
+      <class name="Client_Module.FindClientStatusUsingNomineesLinkTest">
+        <test-method is-config="true" signature="config_BS()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" started-at="2023-08-16T12:13:23 IST" name="config_BS" finished-at="2023-08-16T12:13:23 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" started-at="2023-08-16T12:13:55 IST" name="config_BC" finished-at="2023-08-16T12:13:58 IST" duration-ms="2407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" started-at="2023-08-16T12:13:58 IST" name="config_BM" finished-at="2023-08-16T12:13:58 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="findClientStatusUsingNomineesTest()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" started-at="2023-08-16T12:13:58 IST" name="findClientStatusUsingNomineesTest" finished-at="2023-08-16T12:14:04 IST" duration-ms="5633" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[findClientStatusUsingNomineesTest---->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[findClientStatusUsingNomineesTest---->Testscript execution passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findClientStatusUsingNomineesTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" started-at="2023-08-16T12:14:04 IST" name="config_AM" finished-at="2023-08-16T12:14:04 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" started-at="2023-08-16T12:14:04 IST" name="config_AC" finished-at="2023-08-16T12:14:04 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:Client_Module.FindClientStatusUsingNomineesLinkTest@73a1e9a9]" started-at="2023-08-16T12:14:08 IST" name="config_AS" finished-at="2023-08-16T12:14:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- Client_Module.FindClientStatusUsingNomineesLinkTest -->
+      <class name="Client_Module.AddNewClientTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Client_Module.AddNewClientTest@7b98f307]" started-at="2023-08-16T12:14:04 IST" name="config_BC" finished-at="2023-08-16T12:14:06 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Client_Module.AddNewClientTest@7b98f307]" started-at="2023-08-16T12:14:06 IST" name="config_BM" finished-at="2023-08-16T12:14:07 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="AddNewClientFunctionTest()[pri:0, instance:Client_Module.AddNewClientTest@7b98f307]" started-at="2023-08-16T12:14:07 IST" name="AddNewClientFunctionTest" finished-at="2023-08-16T12:14:07 IST" duration-ms="397" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at Client_Module.AddNewClientTest.AddNewClientFunctionTest(AddNewClientTest.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[AddNewClientFunctionTest---->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[AddNewClientFunctionTest--> Test Script Failed  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddNewClientFunctionTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Client_Module.AddNewClientTest@7b98f307]" started-at="2023-08-16T12:14:08 IST" name="config_AM" finished-at="2023-08-16T12:14:08 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Client_Module.AddNewClientTest@7b98f307]" started-at="2023-08-16T12:14:08 IST" name="config_AC" finished-at="2023-08-16T12:14:08 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- Client_Module.AddNewClientTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Suite -->
+</testng-results>

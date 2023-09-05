@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Suite">
+	
+  <test thread-count="1" parallel="tests" name="System Test">
+    <classes>
+      <class name="Client_Module.AddNomineeUsingClientStatusLinkTest"/>
+      <class name="Payments_Module.AddPaymentUsingAgentIdTest"/>
+      <class name="Nominee_Module.EditClientUsingNomineesTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="1" parallel="tests" name="Integration Test">
+    <classes>
+      <class name="Payments_Module.AddNewPaymentTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="1" parallel="tests" name="Smoke Test">
+    <classes>
+ 		<class name="Client_Module.FindClientStatusUsingNomineesLinkTest"/>
+      	<class name="Client_Module.AddNewClientTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
